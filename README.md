@@ -15,7 +15,7 @@ Training and Testing are used in Conll format.<br>
 Here the **template** is the file which contains features, on which the model is created. And **train_data** is the file containig the training data in Conll format
 
 * Command used for testing is : ``` crf_test -m model test_data```<br>
-
+<br>
 > ## Part-Of-Speech(POS) tagging :
 ```
 Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form of a list of words, 
@@ -29,9 +29,11 @@ for :
 
 
 ```
+<br>
 > ## Chunking :
 ```
 ```
+<br>
 > ## Named Entity Recognition :
 ```
 Named entities are phrases that contain the names of persons, organizations, locations, times and quantities.
