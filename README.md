@@ -10,6 +10,7 @@
 
 
 For this task I have used CRF++ tool for training and Testing.<br>
+**English language** data is used.<br>
 Training and Testing are used in Conll format.<br>
 * Command used for traning is : ``` crf_learn template train_data model```<br>
 Here the **template** is the file which contains features, on which the model is created. And **train_data** is the file containig the training data in Conll format
@@ -47,7 +48,6 @@ We have only one item for framing the features , that is the "word" column and s
 > ## Named Entity Recognition :
 ```
 Named entities are phrases that contain the names of persons, organizations, locations, times and quantities.
-We have performed this task on English language. 
 
 We have only one item for framing the features , that is the "word" column ,second "POS" column and 
 third "Chunking" column.
