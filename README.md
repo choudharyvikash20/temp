@@ -27,15 +27,28 @@ for :
   * Chunking
   * Named Entity Recognition
 
+We have only one item for framing the features , that is the "word" column.
 
 ```
 
 > ## Chunking :
 ```
+Chunking, one of the important processes in natural language processing, is used to identify parts of speech (POS) 
+and short phrases. In other simple words, with chunking, we can get the structure of the sentence. It is also 
+called partial parsing.
+
+Chunking is an important part of NLP because it works as the prerequisite 
+for :
+  * Named Entity Recognition
+
+We have only one item for framing the features , that is the "word" column and second "POS" column.
 ```
 
 > ## Named Entity Recognition :
 ```
 Named entities are phrases that contain the names of persons, organizations, locations, times and quantities.
 We have performed this task on English language. 
+
+We have only one item for framing the features , that is the "word" column ,second "POS" column and 
+third "Chunking" column.
 ```
