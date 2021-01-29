@@ -13,6 +13,7 @@ For this task I have used CRF++ tool for training and Testing.<br>
 Training and Testing are used in Conll format.<br>
 * Command used for traning is : ``` crf_learn template train_data model```<br>
 Here the **template** is the file which contains features, on which the model is created. And **train_data** is the file containig the training data in Conll format
+
 * Command used for testing is : ``` crf_test -m model test_data```<br>
 
 > ## Part-Of-Speech(POS) tagging :
