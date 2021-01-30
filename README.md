@@ -34,9 +34,9 @@ We have only one item for framing the features , that is the "word" column.
 
 > ## Chunking :
 ```
-Chunking, one of the important processes in natural language processing, is used to identify parts of speech (POS) 
-and short phrases. In other simple words, with chunking, we can get the structure of the sentence. It is also 
-called partial parsing.
+Chunking, one of the important processes in natural language processing, is used to identify parts 
+of speech (POS) and short phrases. In other simple words, with chunking, we can get the structure 
+of the sentence. It is also called partial parsing.
 
 Chunking is an important part of NLP because it works as the prerequisite 
 for :
