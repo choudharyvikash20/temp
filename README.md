@@ -30,7 +30,13 @@ for :
 
 We have only one item for framing the features , that is the "word" column.
 
+
 ```
+|  | **Accuracy** |
+|------ |---------|
+| POS_template_1 | 93.24988918673618 % |
+| POS_template_2 | 92.84040779281085 % |
+| POS_template_3 | 93.29421449226417 % |
 
 > ## Chunking :
 ```
@@ -44,6 +50,11 @@ for :
 
 We have only one item for framing the features , that is the "word" column and second "POS" column.
 ```
+|  | **Accuracy** |
+|------ |---------|
+| Chunking_template_1 | 96.05082635033877 % |
+| Chunking_template_2 | 95.94740063744011 % |
+| Chunking_template_3 | 93.96753699052283 % |
 
 > ## Named Entity Recognition :
 ```
@@ -53,3 +64,9 @@ quantities.
 We have only one item for framing the features , that is the "word" column ,second "POS" column and 
 third "Chunking" column.
 ```
+
+|  | **Accuracy** |
+|------ |---------|
+| NER_template_1 | 96.68075536081275 % |
+| NER_template_2 | 96.81065570592114 % |
+| NER_template_3 | 96.71953158323316 % |
