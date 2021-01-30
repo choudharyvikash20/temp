@@ -19,9 +19,9 @@ Here the **template** is the file which contains features, on which the model is
 
 > ## Part-Of-Speech(POS) tagging :
 ```
-Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form of a list of words, 
-into a list of tuples. Here, the tuples are in the form of (word, tag). We can also call POS tagging a process of 
-assigning one of the parts of speech to the given word.
+Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form 
+of a list of words, into a list of tuples. Here, the tuples are in the form of (word, tag). We can 
+also call POS tagging a process of assigning one of the parts of speech to the given word.
 
 POS tagging is an important part of NLP because it works as the prerequisite 
 for :
@@ -47,7 +47,8 @@ We have only one item for framing the features , that is the "word" column and s
 
 > ## Named Entity Recognition :
 ```
-Named entities are phrases that contain the names of persons, organizations, locations, times and quantities.
+Named entities are phrases that contain the names of persons, organizations, locations, times and 
+quantities.
 
 We have only one item for framing the features , that is the "word" column ,second "POS" column and 
 third "Chunking" column.
