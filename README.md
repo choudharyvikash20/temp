@@ -16,6 +16,7 @@ Training and Testing are used in Conll format.<br>
 Here the **template** is the file which contains features, on which the model is created. And **train_data** is the file containig the training data in Conll format
 
 * Command used for testing is : ``` crf_test -m model test_data```<br>
+Above the **model** is the model created through the training and **test_data** contains the test data.
 
 > ## Part-Of-Speech(POS) tagging :
 ```
