@@ -27,14 +27,15 @@ Above the **model** is the model created through the training and **test_data** 
       - chunking_result-1
    - chunking_2 (Contains 4 files)
    - chunking_3 (Contains 4 files)
-2. Part-Of-Speech tagging
-   - POS_1 (Contains 4 files)
-   - POS_2 (Contains 4 files)
-   - POS_3 (Contains 4 files)
-3. Named Entity Recognition
+
+2. Named Entity Recognition
    - NER_1 (Contains 4 files)
    - NER_2 (Contains 4 files)
    - NER_3 (Contains 4 files)
+3. Part-Of-Speech tagging
+   - POS_1 (Contains 4 files)
+   - POS_2 (Contains 4 files)
+   - POS_3 (Contains 4 files)
 
 > ## Part-Of-Speech(POS) tagging :
 ```
