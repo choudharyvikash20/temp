@@ -27,7 +27,6 @@ Above the **model** is the model created through the training and **test_data** 
       - chunking_result-1
    - chunking_2 (Contains 4 files)
    - chunking_3 (Contains 4 files)
-
 2. Named Entity Recognition
    - NER_1 (Contains 4 files)
    - NER_2 (Contains 4 files)
@@ -114,7 +113,7 @@ The dataset is extracted from the provided CoNLL NER shared task 2003
  Used default template as provided in the CRF++ Example for NER.<br>
  This contains : <br>15 ("token-feature")<br>
                  11  ("bigram-feature")<br>
-                 6  ("trigram-feature")<br>
+                 6  ("trigram-feature")<br><br>
 **Template 2:** (Total contains 21 features )<br>
   Many features are removed from default template.<br>
   This contains : <br>13 ("token-feature")<br>
