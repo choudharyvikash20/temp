@@ -18,6 +18,8 @@ Here the **template** is the file which contains features, on which the model is
 * Command used for testing is : ``` crf_test -m model test_data```<br>
 Above the **model** is the model created through the training and **test_data** contains the test data.
 
+**Result** file contains Accuracy,Precision, Recall the F-measure.
+
 **Files Pattern in this repo :**
 1. **Chunking**
    - **chunking_1**
@@ -60,11 +62,11 @@ The dataset is extracted from the provided CoNLL shared task 2000.
  It contains only 3 ("token-feature") .<br>
  
  
-|  | **Accuracy** |
-|------ |---------|
-| POS_template_1 | 93.24988918673618 % |
-| POS_template_2 | 92.84040779281085 % |
-| POS_template_3 | 93.64037402114950 % |
+|  | **Accuracy** | |
+|------ |---------|-|
+| POS_template_1 | 93.24988918673618 % | This default template contains some complex features that leads to Overfitting the training data.|
+| POS_template_2 | 92.84040779281085 % | Some important features were removed due too which accuracy decreses. |
+| POS_template_3 | 93.64037402114950 % | Contains only few features which were good for this task which leads to increase the accuracy.|
 
 > ## Chunking :
 ```
@@ -93,11 +95,11 @@ We have only one item for framing the features , that is the "word" column and s
  This template is very simple, which contains only two basic features.<br><br>
  
  
-|  | **Accuracy** |
-|------ |---------|
-| Chunking_template_1 | 96.05082635033877 % |
-| Chunking_template_2 | 95.94740063744011 % |
-| Chunking_template_3 | 93.96753699052283 % |
+|  | **Accuracy** | |
+|------ |---------|-|
+| Chunking_template_1 | 96.05082635033877 % | Used default template from Conll task which gives best accuracy. |
+| Chunking_template_2 | 95.94740063744011 % | Some features were removed , due to which accuracy decresed. |
+| Chunking_template_3 | 93.96753699052283 % | This contains only 2 features which are not sufficient for good result. |
 
 > ## Named Entity Recognition :
 ```
@@ -124,8 +126,8 @@ The dataset is extracted from the provided CoNLL NER shared task 2003
   This contains : <br>9 ("token-feature")<br>
                  4  ("bigram-feature")<br>
 
-|  | **Accuracy** |
-|------ |---------|
-| NER_template_1 | 96.68075536081275 % |
-| NER_template_2 | 96.81065570592114 % |
-| NER_template_3 | 96.71953158323316 % |
+|  | **Accuracy** | |
+|------ |---------|-|
+| NER_template_1 | 96.68075536081275 % | Used default template from CRF++ example which was for language japanes.|
+| NER_template_2 | 96.81065570592114 % | Removed some complex features , due to which overfitting decresed and accuracy some what incresed |
+| NER_template_3 | 96.71953158323316 % | Some more features were removed |
