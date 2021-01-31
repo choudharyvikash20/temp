@@ -50,13 +50,22 @@ for :
 
 We have only one item for framing the features , that is the "word" column.
 
+The dataset is extracted from the provided CoNLL shared task 2000.
 
 ```
+**Template 1:** (Total contains 7 features )<br>
+ Used a default template containing :<br>5("token-feature") and<br> 2 ("bigram-feature") .<br><br>
+**Template 2:** (Total contains 6 features )<br>
+ Reduced the feature set of the default template to :<br> 3 ("token-features"),<br>2 ("bigram-feature") and <br> 1("trigram-feature") <br><br>
+**Template 3:**<br>
+ It contains only 3 ("token-feature") .<br>
+ 
+ 
 |  | **Accuracy** |
 |------ |---------|
 | POS_template_1 | 93.24988918673618 % |
 | POS_template_2 | 92.84040779281085 % |
-| POS_template_3 | 93.29421449226417 % |
+| POS_template_3 | 93.64037402114950 % |
 
 > ## Chunking :
 ```
@@ -70,6 +79,21 @@ for :
 
 We have only one item for framing the features , that is the "word" column and second "POS" column.
 ```
+**Template 1:** (Total contains 19 features )<br>
+ Used default template as provided by the CoNLL shared task 2000.<br>
+ This contains : <br>10 ("token-feature")<br>
+                 6  ("bigram-feature")<br>
+                 3  ("trigram-feature")<br><br>
+**Template 2:** (Total contains 19 features )<br>
+  Changed some of the features from default template.<br>
+  This contains : <br>10 ("token-feature")<br>
+                 3  ("bigram-feature")<br>
+                 3  ("trigram-feature")<br>
+                 3  (more complex features)<br><br>
+**Template 3:**(Total contains 2 features )<br>
+ This template is very simple, which contains only two basic features.<br><br>
+ 
+ 
 |  | **Accuracy** |
 |------ |---------|
 | Chunking_template_1 | 96.05082635033877 % |
@@ -83,7 +107,23 @@ quantities.
 
 We have only one item for framing the features , that is the "word" column ,second "POS" column and 
 third "Chunking" column.
+
+The dataset is extracted from the provided CoNLL NER shared task 2003
 ```
+**Template 1:** (Total contains 32 features )<br>
+ Used default template as provided in the CRF++ Example for NER.<br>
+ This contains : <br>15 ("token-feature")<br>
+                 11  ("bigram-feature")<br>
+                 6  ("trigram-feature")<br>
+**Template 2:** (Total contains 21 features )<br>
+  Many features are removed from default template.<br>
+  This contains : <br>13 ("token-feature")<br>
+                 8  ("bigram-feature")<br>
+                 
+**Template 3:**(Total contains 13 features )<br>
+ Some more features are removed from default template.<br>
+  This contains : <br>9 ("token-feature")<br>
+                 4  ("bigram-feature")<br>
 
 |  | **Accuracy** |
 |------ |---------|
