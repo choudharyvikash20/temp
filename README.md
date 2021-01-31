@@ -128,6 +128,6 @@ The dataset is extracted from the provided CoNLL NER shared task 2003
 
 |  | **Accuracy** | |
 |------ |---------|-|
-| NER_template_1 | 96.68075536081275 % | Used default template from CRF++ example which was for language japanes.|
-| NER_template_2 | 96.81065570592114 % | Removed some complex features , due to which overfitting decresed and accuracy some what incresed |
-| NER_template_3 | 96.71953158323316 % | Some more features were removed |
+|NER_template_1|96.68075536081275 % | Used default template from CRF++ example which was for language japanes.|
+|NER_template_2|96.81065570592114 % | Removed some complex features , due to which overfitting decresed and accuracy some what incresed |
+|NER_template_3|96.71953158323316 % | Some more features were removed |
