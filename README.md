@@ -18,6 +18,24 @@ Here the **template** is the file which contains features, on which the model is
 * Command used for testing is : ``` crf_test -m model test_data```<br>
 Above the **model** is the model created through the training and **test_data** contains the test data.
 
+**Files Pattern in this repo :**
+1. **Chunking**
+   - **chunking_1**
+      - chunking_template-1
+      - chunking_model-1
+      - chunking_output-1
+      - chunking_result-1
+   - chunking_2 (Contains 4 files)
+   - chunking_3 (Contains 4 files)
+2. Part-Of-Speech tagging
+   - POS_1 (Contains 4 files)
+   - POS_2 (Contains 4 files)
+   - POS_3 (Contains 4 files)
+3. Named Entity Recognition
+   - NER_1 (Contains 4 files)
+   - NER_2 (Contains 4 files)
+   - NER_3 (Contains 4 files)
+
 > ## Part-Of-Speech(POS) tagging :
 ```
 Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form 
