@@ -70,11 +70,13 @@ fundamentally examines the content and concentrates contained in it. It at that 
 rundown of effectively spelled words (a greater amount of like a word reference) and henceforth distinguishes
 the incorrectly spelled words.
 
-Usage - We have actualized a binary characterization model of CNN in which we have utilized a dataset which contains accurately spelled words alongside some
-wrongly spelled words in the proportion of 10:1 (i.e., 10 right words for each wrongly spelled word).
+Usage - We have actualized a binary characterization model of CNN in which we have utilized a dataset which 
+contains accurately spelled words alongside some wrongly spelled words in the proportion of 10:1 (i.e., 10 
+right words for each wrongly spelled word).
 
-At that point we have passed the embeddings of this dataset shaped into the neural organization which repeat through different ages where every age has a specific
-exactness and misfortune esteem which is adjusted after each age to build the precision of the yield model.
+At that point we have passed the embeddings of this dataset shaped into the neural organization which repeat 
+through different ages where every age has a specific exactness and misfortune esteem which is adjusted after 
+each age to build the precision of the yield model.
 
 Finally we have a trained CNN model with accuracy of 91.363639 %
 ```
