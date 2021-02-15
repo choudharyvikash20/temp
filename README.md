@@ -40,11 +40,7 @@ pleasant day’ and the word ‘pleasant’ goes as input to the neural network.
 The skip-gram neural network model is actually surprisingly simple in its most basic form; I think it’s all of the 
 little tweaks and enhancements that start to clutter the explanation.
 
-Chunking is an important part of NLP because it works as the prerequisite 
-for :
-  * Named Entity Recognition
 
-We have only one item for framing the features , that is the "word" column and second "POS" column.
 ```
 
 
