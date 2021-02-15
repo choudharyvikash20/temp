@@ -27,6 +27,8 @@ And Visulisation plots (PCA and t-SNE) for most similar words as well as the com
 4. Spelling Error Detection using CNN
    * CNN.ipynb
    * model
+   
+   All the plots (PCA and T-SNE and present in the notebook of every subtasks )
 ```
 > ##  Word2Vec CBOW(Continuous Bag of words):
 ```
