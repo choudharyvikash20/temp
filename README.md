@@ -65,18 +65,16 @@ Commands to install toolkit
 ```
 > ## Spelling Error Detection using CNN(Convolutional Neural Networks) :
 ```
-GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed 
-on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase 
-interesting linear substructures of the word vector space. 
+It is an interaction of identification and of mistakenly spelled words in a content. In common language, it 
+fundamentally examines the content and concentrates contained in it. It at that point looks at each word to a 
+rundown of effectively spelled words (a greater amount of like a word reference) and henceforth distinguishes
+the incorrectly spelled words.
 
-The GloVe model is trained on the non-zero entries of a global word-word co-occurrence matrix, which tabulates how 
-frequently words co-occur with one another in a given corpus. Populating this matrix requires a single pass through 
-the entire corpus to collect the statistics. For large corpora, this pass can be computationally expensive, but it
-is a one-time up-front cost. Subsequent training iterations are much faster because the number of non-zero matrix 
-entries is typically much smaller than the total number of words in the corpus. 
+Usage - We have actualized a binary characterization model of CNN in which we have utilized a dataset which contains accurately spelled words alongside some
+wrongly spelled words in the proportion of 10:1 (i.e., 10 right words for each wrongly spelled word).
 
-Commands to install toolkit
-1. git clone https://github.com/stanfordnlp/glove
-2. cd glove
-3. make
+At that point we have passed the embeddings of this dataset shaped into the neural organization which repeat through different ages where every age has a specific
+exactness and misfortune esteem which is adjusted after each age to build the precision of the yield model.
+
+Finally we have a trained CNN model with accuracy of 91.363639 %
 ```
