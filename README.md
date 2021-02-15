@@ -6,24 +6,28 @@
 
 
 # **Lab-Task-3** :
+Implement Word Embedding through **Word2Vec** (Glove and Skipgram) and **GloVe** Embeddings .<br>
+And Visulisation plots (PCA and t-SNE) for most similar words as well as the complete embedding space.
 
-Training data is from **English** language is used.<br>
-
-
+>Word embedding is one of the most popular representation of document vocabulary. It is capable of capturing context of a word in a document, semantic and syntactic similarity, relation with other words, etc.
+Word2Vec is a method to construct such an embedding. It can be obtained using two methods (both involving Neural Networks): Skip Gram and Common Bag Of Words (CBOW)
+<br>Training data is from **English** language.<br>
 
 **Files Pattern in this repo :**
-1. **Word2Vec_CBOW Embedding **
+1. **Word2Vec_CBOW Embedding**
    - word2vec_cbow_.ipynb {code Implemented file }
    - model
       
 2. Word2Vec_Skipgram Embedding
-   - word2vec_skipgram_.ipynb {code Implemented file }
+   - word2vec_skipgram_.ipynb
    - model
 3. Glove Embedding 
-   - glove_.ipynb {code Implemented file }
+   - glove.ipynb
    - model
 4. Spelling Error Detection using CNN
-> ##  :
+   - CNN.ipynb
+   - model
+> ##  : Word2Vec CBOW()
 ```
 Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form 
 of a list of words, into a list of tuples. Here, the tuples are in the form of (word, tag). We can 
