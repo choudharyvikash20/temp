@@ -15,18 +15,17 @@ And Visulisation plots (PCA and t-SNE) for most similar words as well as the com
 
 **Files Pattern in this repo :**
 1. **Word2Vec_CBOW Embedding**
-   - word2vec_cbow_.ipynb {code Implemented file }
-   - model
-      
+   * word2vec_cbow_.ipynb {code Implemented file }
+   * model 
 2. Word2Vec_Skipgram Embedding
-   - word2vec_skipgram_.ipynb
-   - model
+   * word2vec_skipgram_.ipynb
+   * model
 3. Glove Embedding 
-   - glove.ipynb
-   - model
+   * glove.ipynb
+   * model
 4. Spelling Error Detection using CNN
-   - CNN.ipynb
-   - model
+   * CNN.ipynb
+   * model
 > ##  : Word2Vec CBOW()
 ```
 Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form 
