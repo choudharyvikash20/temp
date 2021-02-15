@@ -7,26 +7,22 @@
 
 # **Lab-Task-3** :
 
-
-
-For this task I have used gensim library to implement **Word2Vec** .<br>
 Training data is from **English** language is used.<br>
 
 
 
 **Files Pattern in this repo :**
-1. **Chunking**
-   - **chunking_1**
+1. **Word2Vec_CBOW Embedding **
+   - word2vec_cbow_.ipynb {code Implemented file }
+   - model
       
-2. Named Entity Recognition
-   - NER_1 (Contains 4 files)
-   - NER_2 (Contains 4 files)
-   - NER_3 (Contains 4 files)
-3. Part-Of-Speech tagging
-   - POS_1 (Contains 4 files)
-   - POS_2 (Contains 4 files)
-   - POS_3 (Contains 4 files)
-
+2. Word2Vec_Skipgram Embedding
+   - word2vec_skipgram_.ipynb {code Implemented file }
+   - model
+3. Glove Embedding 
+   - glove_.ipynb {code Implemented file }
+   - model
+4. Spelling Error Detection using CNN
 > ##  :
 ```
 Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form 
