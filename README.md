@@ -28,7 +28,7 @@ And Visulisation plots (PCA and t-SNE) for most similar words as well as the com
    * CNN.ipynb
    * model
    
-   All the plots (PCA and T-SNE and present in the notebook of every subtasks )
+   All the plots (PCA and T-SNE) and present in the notebook of every subtasks.
 ```
 This task is also submited on G-drive https://drive.google.com/drive/folders/1SKoeN7PLtiFRbVTRUNdGbKEtpcsIjX_-?usp=sharing so large size models is submit of G-drive
 
@@ -43,7 +43,7 @@ Getting top 5 similar to this {place, computer, hero, time , game} words accordi
 Output :
 - model
 - plot using PCA and T-SNE of whole data
-- plot of 
+- plot of similar words using plotly libraby and PCA and (T-SNE)
 ```
 
 > ## Word2Vec Skip-gram :
@@ -57,7 +57,7 @@ Getting top 5 similar to this {place, computer, hero, time , game} words accordi
 Output :
 - model
 - plot using PCA and T-SNE of whole data
-- plot of 
+- plot of similar words using plotly libraby and PCA and (T-SNE)
 ```
 
 
@@ -77,7 +77,7 @@ Getting top 5 similar to this {place, computer, hero, time , game} words accordi
 Output :
 - model
 - plot using PCA and T-SNE of whole data
-- plot of 
+- plot of similar words using plotly libraby and PCA and (T-SNE) 
 
 Commands to install toolkit
 1. git clone https://github.com/stanfordnlp/glove
