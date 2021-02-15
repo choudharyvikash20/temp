@@ -5,30 +5,19 @@
 ```
 
 
-# **Lab-Task-2** :
+# **Lab-Task-3** :
 
 
 
-For this task I have used CRF++ tool for training and Testing.<br>
-**English language** data is used.<br>
-Training and Testing are used in Conll format.<br>
-* Command used for traning is : ``` crf_learn template train_data model```<br>
-Here the **template** is the file which contains features, on which the model is created. And **train_data** is the file containig the training data in Conll format
+For this task I have used gensim library to implement **Word2Vec** .<br>
+Training data is from **English** language is used.<br>
 
-* Command used for testing is : ``` crf_test -m model test_data```<br>
-Above the **model** is the model created through the training and **test_data** contains the test data.
 
-**Result** file contains Accuracy,Precision, Recall the F-measure.
 
 **Files Pattern in this repo :**
 1. **Chunking**
    - **chunking_1**
-      - chunking_template-1
-      - chunking_model-1
-      - chunking_output-1
-      - chunking_result-1
-   - chunking_2 (Contains 4 files)
-   - chunking_3 (Contains 4 files)
+      
 2. Named Entity Recognition
    - NER_1 (Contains 4 files)
    - NER_2 (Contains 4 files)
@@ -38,7 +27,7 @@ Above the **model** is the model created through the training and **test_data** 
    - POS_2 (Contains 4 files)
    - POS_3 (Contains 4 files)
 
-> ## Part-Of-Speech(POS) tagging :
+> ##  :
 ```
 Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form 
 of a list of words, into a list of tuples. Here, the tuples are in the form of (word, tag). We can 
