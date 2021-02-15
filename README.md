@@ -58,7 +58,7 @@ the entire corpus to collect the statistics. For large corpora, this pass can be
 is a one-time up-front cost. Subsequent training iterations are much faster because the number of non-zero matrix 
 entries is typically much smaller than the total number of words in the corpus. 
 
-Commands
+Commands to install toolkit
 1. git clone https://github.com/stanfordnlp/glove
 2. cd glove && make
 3. ./GolVe.sh
