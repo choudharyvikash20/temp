@@ -26,11 +26,12 @@ And Visulisation plots (PCA and t-SNE) for most similar words as well as the com
 4. Spelling Error Detection using CNN
    * CNN.ipynb
    * model
-> ##  : Word2Vec CBOW()
+> ##  : Word2Vec CBOW
 ```
-Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form 
-of a list of words, into a list of tuples. Here, the tuples are in the form of (word, tag). We can 
-also call POS tagging a process of assigning one of the parts of speech to the given word.
+This method takes the context of each word as the input and tries to predict the word corresponding to the context.
+The CBOW model tries to understand the context of the words and takes this as input. It then tries to predict words 
+that are contextually accurate. Let us consider an example for understanding this. Consider the sentence: ‘It is a pleasant
+day’ and the word ‘pleasant’ goes as input to the neural network. We are trying to predict the word ‘day’ here.
 
 POS tagging is an important part of NLP because it works as the prerequisite 
 for :
