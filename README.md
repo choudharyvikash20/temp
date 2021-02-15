@@ -99,5 +99,7 @@ At that point we have passed the embeddings of this dataset shaped into the neur
 through different ages where every age has a specific exactness and misfortune esteem which is adjusted after 
 each age to build the precision of the yield model.
 
-Finally we have a trained CNN model with accuracy of 91.363639 %
+Finally we have a trained CNN model with 
 ```
+| accuracy | 91.363639 % |
+|---------|--------------|
