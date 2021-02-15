@@ -37,8 +37,10 @@ pleasant day’ and the word ‘pleasant’ goes as input to the neural network.
 
 > ## Word2Vec Skip-gram :
 ```
-The skip-gram neural network model is actually surprisingly simple in its most basic form; I think it’s all of the 
-little tweaks and enhancements that start to clutter the explanation.
+The main idea behind the Skip-Gram model is this: it takes every word in a large corpora (we will call it the focus 
+word) and also takes one-by-one the words that surround it within a defined ‘window’ to then feed a neural network 
+that after training will predict the probability for each word to actually appear in the window around the focus 
+word.
 
 
 ```
@@ -49,7 +51,7 @@ little tweaks and enhancements that start to clutter the explanation.
 GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed 
 on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase 
 interesting linear substructures of the word vector space. 
-Training
+
 The GloVe model is trained on the non-zero entries of a global word-word co-occurrence matrix, which tabulates how 
 frequently words co-occur with one another in a given corpus. Populating this matrix requires a single pass through 
 the entire corpus to collect the statistics. For large corpora, this pass can be computationally expensive, but it
