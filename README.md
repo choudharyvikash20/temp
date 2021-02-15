@@ -9,8 +9,8 @@
 Implement Word Embedding through **Word2Vec** (Glove and Skipgram) and **GloVe** Embeddings .<br>
 And Visulisation plots (PCA and t-SNE) for most similar words as well as the complete embedding space.
 
->Word embedding is one of the most popular representation of document vocabulary. It is capable of capturing context of a word in a document, semantic and syntactic similarity, relation with other words, etc.
-Word2Vec is a method to construct such an embedding. It can be obtained using two methods (both involving Neural Networks): Skip Gram and Common Bag Of Words (CBOW)
+>* Word embedding is one of the most popular representation of document vocabulary. It is capable of capturing context of a word in a document, semantic and syntactic similarity, relation with other words, etc.
+>* Word2Vec is a method to construct such an embedding. It can be obtained using two methods (both involving Neural Networks): Skip Gram and Common Bag Of Words (CBOW)
 <br>Training data is from **English** language.<br>
 
 **Files Pattern in this repo :**
