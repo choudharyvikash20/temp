@@ -30,6 +30,8 @@ And Visulisation plots (PCA and t-SNE) for most similar words as well as the com
    
    All the plots (PCA and T-SNE and present in the notebook of every subtasks )
 ```
+This task is also submited on G-drive https://drive.google.com/drive/folders/1SKoeN7PLtiFRbVTRUNdGbKEtpcsIjX_-?usp=sharing so large size models is submit of G-drive
+
 > ##  Word2Vec CBOW(Continuous Bag of words):
 ```
 This method takes the context of each word as the input and tries to predict the word corresponding to the context.
@@ -37,6 +39,11 @@ The CBOW model tries to understand the context of the words and takes this as in
 that are contextually accurate. Let us consider an example for understanding this. Consider the sentence: ‘It is a 
 pleasant day’ and the word ‘pleasant’ goes as input to the neural network. We are trying to predict the word ‘day’ here.
 
+Getting top 5 similar to this {place, computer, hero, time , game} words according to model created.
+Output :
+- model
+- plot using PCA and T-SNE of whole data
+- plot of 
 ```
 
 > ## Word2Vec Skip-gram :
@@ -46,7 +53,11 @@ word) and also takes one-by-one the words that surround it within a defined ‘w
 that after training will predict the probability for each word to actually appear in the window around the focus 
 word.
 
-
+Getting top 5 similar to this {place, computer, hero, time , game} words according to model created.
+Output :
+- model
+- plot using PCA and T-SNE of whole data
+- plot of 
 ```
 
 
@@ -61,6 +72,12 @@ frequently words co-occur with one another in a given corpus. Populating this ma
 the entire corpus to collect the statistics. For large corpora, this pass can be computationally expensive, but it
 is a one-time up-front cost. Subsequent training iterations are much faster because the number of non-zero matrix 
 entries is typically much smaller than the total number of words in the corpus. 
+
+Getting top 5 similar to this {place, computer, hero, time , game} words according to model created.
+Output :
+- model
+- plot using PCA and T-SNE of whole data
+- plot of 
 
 Commands to install toolkit
 1. git clone https://github.com/stanfordnlp/glove
