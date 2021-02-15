@@ -26,7 +26,7 @@ And Visulisation plots (PCA and t-SNE) for most similar words as well as the com
 4. Spelling Error Detection using CNN
    * CNN.ipynb
    * model
-> ##  Word2Vec CBOW :
+> ##  Word2Vec CBOW(Continuous Bag of words):
 ```
 This method takes the context of each word as the input and tries to predict the word corresponding to the context.
 The CBOW model tries to understand the context of the words and takes this as input. It then tries to predict words 
@@ -60,7 +60,23 @@ entries is typically much smaller than the total number of words in the corpus.
 
 Commands to install toolkit
 1. git clone https://github.com/stanfordnlp/glove
-2. cd glove && make
-3. ./GolVe.sh
+2. cd glove
+3. make
 ```
+> ## Spelling Error Detection using CNN(Convolutional Neural Networks) :
+```
+GloVe is an unsupervised learning algorithm for obtaining vector representations for words. Training is performed 
+on aggregated global word-word co-occurrence statistics from a corpus, and the resulting representations showcase 
+interesting linear substructures of the word vector space. 
 
+The GloVe model is trained on the non-zero entries of a global word-word co-occurrence matrix, which tabulates how 
+frequently words co-occur with one another in a given corpus. Populating this matrix requires a single pass through 
+the entire corpus to collect the statistics. For large corpora, this pass can be computationally expensive, but it
+is a one-time up-front cost. Subsequent training iterations are much faster because the number of non-zero matrix 
+entries is typically much smaller than the total number of words in the corpus. 
+
+Commands to install toolkit
+1. git clone https://github.com/stanfordnlp/glove
+2. cd glove
+3. make
+```
