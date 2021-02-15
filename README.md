@@ -14,7 +14,8 @@ And Visulisation plots (PCA and t-SNE) for most similar words as well as the com
 <br>Training data is from **English** language.<br>
 
 **Files Pattern in this repo :**
-1. **Word2Vec_CBOW Embedding**
+```
+1. Word2Vec_CBOW Embedding
    * word2vec_cbow_.ipynb {code Implemented file }
    * model 
 2. Word2Vec_Skipgram Embedding
@@ -26,6 +27,7 @@ And Visulisation plots (PCA and t-SNE) for most similar words as well as the com
 4. Spelling Error Detection using CNN
    * CNN.ipynb
    * model
+```
 > ##  Word2Vec CBOW(Continuous Bag of words):
 ```
 This method takes the context of each word as the input and tries to predict the word corresponding to the context.
