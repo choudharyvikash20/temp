@@ -7,8 +7,8 @@
 
 # **Lab-Task-4** :
 
-
-
+- **Recurrent Neural Network (RNN)** allows you to model memory units to persist data and model short term dependencies. It is also used in time-series forecasting for the identification of data correlations and patterns. It also helps to produce predictive results for sequential data by delivering similar behavior as a human brain.
+-A **Bidirectional LSTM**, or biLSTM, is a sequence processing model that consists of two LSTMs: one taking the input in a forward direction, and the other in a backwards direction. BiLSTMs effectively increase the amount of information available to the network, improving the context available to the algorithm (e.g. knowing what words immediately follow and precede a word in a sentence).
 
 **Files Pattern in this repo :**
 
