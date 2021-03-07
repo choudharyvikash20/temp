@@ -16,13 +16,13 @@
    - **RNN**
       - Chunking_using_RNN.ipynb
       - Chunking_using_RNN_model.pb
+   - **Bi-LSTM** (contain 2 files)
 2. Named Entity Recognition
-    - Chunking_using_RNN.ipynb
-      - Chunking_using_RNN_model.pb
+   - **RNN** (contain 2 files)
+   - **Bi-LSTM** (contain 2 files)
 3. Part-Of-Speech tagging
-   - POS_1 (Contains 4 files)
-   - POS_2 (Contains 4 files)
-   - POS_3 (Contains 4 files)
+   - **RNN** (contain 2 files)
+   - **Bi-LSTM** (contain 2 files)
 
 > ## Part-Of-Speech(POS) tagging :
 ```
