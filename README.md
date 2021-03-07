@@ -62,8 +62,8 @@ We have only one item for framing the features , that is the "word" column and s
 
 |  | **Accuracy on test data of Chunking** |
 |------ |---------|
-| RNN | 93.24988918673618 % |
-| Bi-LSTM | 92.84040779281085 % |
+| RNN | 97.0231831073761 % |
+| Bi-LSTM | 97.39433526992798 % |
 
 > ## Named Entity Recognition :
 ```
@@ -77,5 +77,5 @@ The dataset is extracted from the provided CoNLL NER shared task 2003
 ```
 |  | **Accuracy on test data of Named Entity Recognition(NER)** |
 |------ |---------|
-| RNN | 93.24988918673618 % |
-| Bi-LSTM | 92.84040779281085 % |
+| RNN | 99.89232420921326 % |
+| Bi-LSTM | 99.50173497200012 % |
