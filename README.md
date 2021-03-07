@@ -24,6 +24,20 @@
    - **RNN** (contain 2 files)
    - **Bi-LSTM** (contain 2 files)
 
+> ## Major steps followed in all the sub-tasks:
+```
+- Data Preparation (Downloading data using NLTK tool kit or Importing from device  i.e. conll2000 and conll2003 )
+- Data separation  (separate the words from the tags)
+- Data Spliting    (split the data in training and testing data and use the train_test_split function from Scikit-Learn)
+- Convert the word dataset to integer dataset, both the words and the tags.
+- Padding 
+- Create the Architecture for our RNN/Bi-LSTM model
+- Training model
+- Accuracy calculation
+- Visualization using graph
+- Example
+```
+
 > ## Part-Of-Speech(POS) tagging :
 ```
 Part-of-Speech (POS) tagging, it may be defined as the process of converting a sentence in the form 
@@ -34,8 +48,6 @@ POS tagging is an important part of NLP because it works as the prerequisite
 for :
   * Chunking
   * Named Entity Recognition
-
-We have only one item for framing the features , that is the "word" column.
 
 The dataset is extracted from the provided CoNLL shared task 2000.
 
@@ -57,7 +69,6 @@ Chunking is an important part of NLP because it works as the prerequisite
 for :
   * Named Entity Recognition
 
-We have only one item for framing the features , that is the "word" column and second "POS" column.
 ```
 
 |  | **Accuracy on test data of Chunking** |
@@ -69,9 +80,6 @@ We have only one item for framing the features , that is the "word" column and s
 ```
 Named entities are phrases that contain the names of persons, organizations, locations, times and 
 quantities.
-
-We have only one item for framing the features , that is the "word" column ,second "POS" column and 
-third "Chunking" column.
 
 The dataset is extracted from the provided CoNLL NER shared task 2003
 ```
