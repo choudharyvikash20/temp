@@ -43,8 +43,8 @@ The dataset is extracted from the provided CoNLL shared task 2000.
  
 |  | **Accuracy on test data of POS Tagging** |
 |------ |---------|
-| RNN | 93.24988918673618 % |
-| Bi-LSTM | 92.84040779281085 % |
+| RNN | 97.63493537902832 % |
+| Bi-LSTM | 98.25547337532043 % |
 
 
 > ## Chunking :
